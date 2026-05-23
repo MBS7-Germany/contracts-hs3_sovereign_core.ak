@@ -1,0 +1,29 @@
+# Abhängigkeiten (Dependencies)
+/node_modules
+/.pnp
+.pnp.js
+
+# Build- und Produktions-Ausgaben
+/dist
+/build
+/.next/
+/out/
+
+# Lokale Geheimnisse und API-Schlüssel (Militärischer Schutz!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debugging-Protokolle und Systemdateien
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+.DS_Store
+Thumbs.db
+
+# Aiken Compiler-Spezifische Ausgaben
+/plutus.json
+/artifacts/
